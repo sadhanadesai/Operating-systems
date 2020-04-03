@@ -1,0 +1,7 @@
+CC=gcc
+TARGET=assignment1
+all:
+	$(CC) assignment1.c -o $(TARGET)
+clean:
+	rm $(TARGET) 
+
